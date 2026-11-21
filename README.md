@@ -152,78 +152,33 @@ Colori, sfondi, temi e lingua (🇮🇹 Italiano / 🇬🇧 English).
 
 ### Requisiti
 
-- **Windows 10 / 11** (alcune funzioni, come l'Instant Replay, funzionano solo su Windows)
-- **Python 3.9+** → [python.org](https://www.python.org/downloads/)
+- **Windows 10 / 11**
+- Nessun altro programma da installare: **Python non serve**
 
-### Avvio rapido
+### Come si scarica e si avvia
 
-**1.** Scarica il repository (**Code → Download ZIP**) e scompattalo.
+**1.** Vai nella sezione [**Releases**](https://github.com/K3KK09/Khub/releases) di questo repository.
 
-**2.** Installa la libreria principale:
+**2.** Scarica il file **`Khub.exe`** dell'ultima versione.
 
-```bash
-pip install pywebview
-```
-
-**3.** Avvia Khub con doppio clic su `Khub.pyw`, oppure:
-
-```bash
-python Khub.pyw
-```
+**3.** Fai doppio clic su `Khub.exe`: Khub si apre subito.
 
 > Alla prima apertura parte un **tutorial guidato** che ti mostra tutte le funzioni. 👋
 
 <details>
-<summary><b>➕ Librerie opzionali (funzioni extra)</b></summary>
+<summary><b>⚠️ Windows mostra «Windows ha protetto il PC»</b></summary>
 
 <br/>
 
-```bash
-pip install pillow pystray pypresence psutil hidapi
-```
-
-| Libreria | Serve per |
-|---|---|
-| `pillow` | Copertine dei giochi |
-| `pystray` | Ridurre Khub nella barra delle applicazioni |
-| `pypresence` | Mostrare l'attività su Discord |
-| `psutil` | Riconoscere i giochi in esecuzione |
-| `hidapi` | LED del controller PlayStation |
-
-> Dalle **Impostazioni → Componenti** Khub rileva le librerie mancanti e le installa con un clic.
-
-</details>
-
-<details>
-<summary><b>📦 Creare l'eseguibile .exe</b></summary>
-
-<br/>
-
-```bash
-pip install pyinstaller
-pyinstaller --noconsole --onefile --add-data "index.html;." --add-data "panel.html;." --add-data "player.html;." Khub.pyw
-```
-
-L'eseguibile viene creato nella cartella `dist`.
+È un avviso normale per i programmi nuovi o non firmati. Clicca su **Ulteriori informazioni → Esegui comunque**.
 
 </details>
 
 <br/>
 
-## ✦ Struttura del progetto
+## ✦ Dove vengono salvati i dati
 
-```text
-Khub/
-├── Khub.pyw        # Avvio del programma (include il motore di Khub)
-├── index.html      # Interfaccia principale
-├── panel.html      # Pannello Instant Replay
-├── player.html     # Lettore video dei replay
-└── assets/         # Logo e screenshot per questo README
-```
-
-> ⚠️ Tieni `Khub.pyw`, `index.html`, `panel.html` e `player.html` **nella stessa cartella**.
-
-I dati (libreria, statistiche, impostazioni) sono salvati in una cartella fissa sul tuo PC, nel file `game_hub_data.json`: non perdi nulla anche se sposti o aggiorni il programma.
+Libreria, statistiche e impostazioni sono salvate in una cartella fissa sul tuo PC (file `game_hub_data.json`), quindi **non perdi nulla** anche se sposti o aggiorni `Khub.exe`.
 
 <br/>
 
@@ -232,7 +187,7 @@ I dati (libreria, statistiche, impostazioni) sono salvati in una cartella fissa 
 <details>
 <summary><b>Il programma non si apre</b></summary>
 <br/>
-Controlla di aver installato <code>pywebview</code> e che i quattro file siano nella stessa cartella.
+Prova a scaricare di nuovo <code>Khub.exe</code> dalle Releases e a eseguirlo da una cartella normale (per esempio Documenti), non da dentro un file ZIP.
 </details>
 
 <details>
@@ -250,14 +205,14 @@ Attiva «Condividi la mia attività» nelle impostazioni di Discord e in Khub.
 <details>
 <summary><b>Come si aggiorna?</b></summary>
 <br/>
-Khub controlla da solo se è disponibile una nuova versione su GitHub e può aggiornarsi.
+Khub controlla da solo se è disponibile una nuova versione nelle Releases di GitHub e può aggiornarsi.
 </details>
 
 <br/>
 
 ## ✦ Contribuire
 
-Hai un'idea o hai trovato un bug? Apri una [**Issue**](https://github.com/K3KK09/Khub/issues) o una **Pull Request**: ogni aiuto è benvenuto.
+Hai un'idea o hai trovato un bug? Apri una [**Issue**](https://github.com/K3KK09/Khub/issues): ogni segnalazione è benvenuta.
 
 ## ✦ Licenza
 
