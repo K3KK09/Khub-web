@@ -11,12 +11,12 @@ Libreria, statistiche, instant replay e controller in un'app veloce, elegante e 
 
 <br/>
 
-[![Release](https://img.shields.io/github/v/release/K3KK09/Khub?style=for-the-badge&color=ffd000&labelColor=111111)](https://github.com/K3KK09/Khub/releases)
+[![Release](https://img.shields.io/github/v/release/K3KK09/Khub-web?style=for-the-badge&color=ffd000&labelColor=111111)](https://github.com/K3KK09/Khub-web/releases)
 [![Platform](https://img.shields.io/badge/Windows-10%20%7C%2011-ffd000?style=for-the-badge&labelColor=111111&logo=windows&logoColor=white)](#-installazione)
 [![Python](https://img.shields.io/badge/Python-3.9+-ffd000?style=for-the-badge&labelColor=111111&logo=python&logoColor=white)](https://www.python.org/downloads/)
-[![Stars](https://img.shields.io/github/stars/K3KK09/Khub?style=for-the-badge&color=ffd000&labelColor=111111)](https://github.com/K3KK09/Khub/stargazers)
+[![Stars](https://img.shields.io/github/stars/K3KK09/Khub-web?style=for-the-badge&color=ffd000&labelColor=111111)](https://github.com/K3KK09/Khub-web/stargazers)
 
-[**Scarica**](https://github.com/K3KK09/Khub/releases) · [**Funzioni**](#-funzioni) · [**Installazione**](#-installazione) · [**FAQ**](#-domande-frequenti)
+[**Scarica**](https://github.com/K3KK09/Khub-web/releases) · [**Funzioni**](#-funzioni) · [**Installazione**](#-installazione) · [**FAQ**](#-domande-frequenti)
 
 <br/>
 
@@ -77,12 +77,26 @@ Con un solo tasto salvi **gli ultimi secondi di gioco**, come un replay istantan
 <div align="center">
 <table>
 <tr>
-<td width="50%"><img src="assets/screenshots/replay-panel.png" alt="Pannello Instant Replay" /></td>
-<td width="50%"><img src="assets/screenshots/replay-player.png" alt="Lettore video" /></td>
-</tr>
-<tr>
-<td align="center"><sub>Pannello Instant Replay</sub></td>
-<td align="center"><sub>Lettore video</sub></td>
+<td width="38%" valign="top" align="center">
+<img src="assets/screenshots/replay-panel.png" alt="Pannello Instant Replay" />
+<br/><sub><b>Pannello Instant Replay</b></sub>
+</td>
+<td width="62%" valign="top" align="center">
+<img src="assets/screenshots/replay-player.png" alt="Lettore video" />
+<br/><sub><b>Lettore video integrato</b></sub>
+<br/><br/>
+<div align="left">
+<ul>
+<li>⏺️ <b>Registrazione continua</b> in background, con buffer di 90 secondi</li>
+<li>💾 <b>F9</b> salva gli ultimi secondi di gioco (tasto predefinito)</li>
+<li>🪟 <b>Alt + Z</b> apre e chiude il pannello (tasto predefinito)</li>
+<li>🎚️ <b>Mixer</b> separato per volume generale, Discord e microfono</li>
+<li>🖼️ <b>Galleria</b> con tutte le clip salvate, pronte da guardare</li>
+</ul>
+</div>
+<img src="assets/screenshots/istant-interface.png" alt="Istant interface" />
+<br/><sub><b>Istant interface</b></sub>
+</td>
 </tr>
 </table>
 </div>
@@ -157,7 +171,7 @@ Colori, sfondi, temi e lingua (🇮🇹 Italiano / 🇬🇧 English).
 
 ### Come si scarica e si avvia
 
-**1.** Vai nella sezione [**Releases**](https://github.com/K3KK09/Khub/releases) di questo repository.
+**1.** Vai nella sezione [**Releases**](https://github.com/K3KK09/Khub-web/releases) di questo repository.
 
 **2.** Scarica il file **`Khub.exe`** dell'ultima versione.
 
@@ -212,7 +226,7 @@ Khub controlla da solo se è disponibile una nuova versione nelle Releases di Gi
 
 ## ✦ Contribuire
 
-Hai un'idea o hai trovato un bug? Apri una [**Issue**](https://github.com/K3KK09/Khub/issues): ogni segnalazione è benvenuta.
+Hai un'idea o hai trovato un bug? Apri una [**Issue**](https://github.com/K3KK09/Khub-web/issues): ogni segnalazione è benvenuta.
 
 ## ✦ Licenza
 
