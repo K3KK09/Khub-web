@@ -77,11 +77,11 @@ Con un solo tasto salvi **gli ultimi secondi di gioco**, come un replay istantan
 <div align="center">
 <table>
 <tr>
-<td width="38%" valign="top" align="center">
+<td width="46%" valign="top" align="center">
 <img src="assets/screenshots/replay-panel.png" alt="Pannello Instant Replay" />
 <br/><sub><b>Pannello Instant Replay</b></sub>
 </td>
-<td width="62%" valign="top" align="center">
+<td width="54%" valign="top" align="center">
 <img src="assets/screenshots/replay-player.png" alt="Lettore video" />
 <br/><sub><b>Lettore video integrato</b></sub>
 <br/><br/>
